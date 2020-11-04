@@ -15,16 +15,16 @@
 
     </string-array>
     <string-array name="description">
-        <item>This is random</item>
-        <item>This is random</item>
-        <item>This is random</item>
-        <item>This is random</item>
-        <item>This is random</item>
-        <item>This is random</item>
-        <item>This is random</item>
-        <item>This is random</item>
-        <item>This is random</item>
-        <item>This is random</item>
+        <item>Learn C Programming</item>
+        <item>Learn C++ Programming</item>
+        <item>Learn C# Programming</item>
+        <item>Learn Java Programming</item>
+        <item>Learn Javascript Programming</item>
+        <item>Learn Kotlin</item>
+        <item>Learn Python Programming</item>
+        <item>Learn Ruby Programming</item>
+        <item>Learn Swift Programming</item>
+        <item>Learn Typescript Programming</item>
 
     </string-array>
 </resources>

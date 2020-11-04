@@ -46,12 +46,30 @@ public class DetailedActivity extends YouTubeBaseActivity {
         mOnInitializedListener = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-              //  List<String> videoList = new ArrayList<>();
-               // videoList.add();
-               // videoList.add();
-              //  youTubePlayer.loadVideos(videoList);
-                youTubePlayer.loadPlaylist("PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM");
-
+//                List<String> videoList = new ArrayList<>();
+//                videoList.add("KJgsSFOSQv0");
+//                videoList.add("CpG3oATGIs");
+//                youTubePlayer.loadVideos(videoList);
+                if(data1.equals("C"))
+                    youTubePlayer.loadPlaylist("PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM");
+                else if(data1.equals("C++"))
+                    youTubePlayer.loadPlaylist("PLVlQHNRLflP8_DGKcMoRw-TYJJALgGu4J");
+                else if(data1.equals("C#"))
+                    youTubePlayer.loadPlaylist("PLAC325451207E3105");
+                else if(data1.equals("Java"))
+                    youTubePlayer.loadPlaylist("PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al");
+                else if(data1.equals("Javascript"))
+                    youTubePlayer.loadPlaylist("PLsyeobzWxl7qtP8Lo9TReqUMkiOp446cV");
+                else if(data1.equals("Kotlin"))
+                    youTubePlayer.loadPlaylist("PLlxmoA0rQ-LwgK1JsnMsakYNACYGa1cjR");
+                else if(data1.equals("Python"))
+                    youTubePlayer.loadPlaylist("PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME");
+                else if(data1.equals("Ruby"))
+                    youTubePlayer.loadPlaylist("PL1512BD72E7C9FFCA");
+                else if(data1.equals("Swift"))
+                    youTubePlayer.loadPlaylist("PLMRqhzcHGw1b89DXHOVA77ozWXWmuBkWX");
+                else
+                    youTubePlayer.loadPlaylist("PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI");
             }
 
             @Override
