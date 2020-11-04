@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ourapp">
+    package="com.example.CodeIt">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -9,9 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OurApp">
-        <activity android:name=".HomeActivity"></activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.CodeIt.DetailedActivity"
+            android:parentActivityName="com.example.CodeIt.HomeActivity"
+            android:label="Details"/>
+        <activity android:name="com.example.CodeIt.HomeActivity" />
+        <activity android:name="com.example.CodeIt.LoginActivity" />
+        <activity android:name="com.example.CodeIt.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

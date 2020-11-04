@@ -1,4 +1,4 @@
-package com.example.ourapp;
+package com.example.CodeIt;
 
 import android.content.Context;
 
