@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.CodeIt">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,16 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OurApp">
-        <activity android:name="com.example.CodeIt.DetailedActivity"
-            android:parentActivityName="com.example.CodeIt.HomeActivity"
-            android:label="Details"/>
-        <activity android:name="com.example.CodeIt.HomeActivity" />
-        <activity android:name="com.example.CodeIt.LoginActivity" />
-        <activity android:name="com.example.CodeIt.MainActivity">
+        <activity android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailedActivity"
+            android:label="Details"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
