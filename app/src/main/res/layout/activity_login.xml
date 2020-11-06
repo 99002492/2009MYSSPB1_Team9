@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
-    tools:context=".LoginActivity"
-    android:background="@drawable/background">
+    android:background="@drawable/login_wall_cropped"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".LoginActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LogIn"
         android:layout_marginTop="150dp"
+        android:text="LogIn"
         android:textColor="@color/white"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
 
     <EditText
         android:id="@+id/username1"
