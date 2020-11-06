@@ -26,6 +26,5 @@ public class HomeActivity extends AppCompatActivity {
         MyAdapter myAdapter = new MyAdapter(this, s1, s2, images);
         recylerView.setAdapter(myAdapter);
         recylerView.setLayoutManager(new LinearLayoutManager(this));
-
     }
 }
