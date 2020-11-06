@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 String mail = email.getText().toString();
                 String pass = password.getText().toString();
                 String repass = repassword.getText().toString();
-                tring emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+                String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
 
                 if(user.equals("")||mail.equals("")||pass.equals("")||repass.equals("")){
                     Toast.makeText(MainActivity.this,"Please enter all the fields", Toast.LENGTH_SHORT).show();
